@@ -1,0 +1,99 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    background-color: #fffef2;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+#nav {
+    background-color: #e7ac0e;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 25px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 10px;
+    margin-right: 10px;
+    float: right;
+}
+
+.container {
+    display: flex; /* Shrink to fit its content */
+    justify-content: center; /* Clearfix for floats */
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 35px;
+}
+.card {
+    display: flex; /* Float cards next to each other */
+    flex-direction: column;
+    width: 200px; 
+    margin: 10px; /* Space between cards */
+    padding: 20px;
+    border: 1px solid #edbd0f;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.card h2 {
+    margin-top: 0;
+}
+
+.card button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #e7ac0e;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.card a {
+    text-decoration: none;
+    color: white;
+}
+
+.card button:hover {
+    background-color: #b38600; 
+}
+
+.wearehere p {
+    /* margin-top: 100px; */
+    /* z-index: 10; */
+    color: black;
+    /* background-color: blue; */
+    margin-top: 20px;
+}
+.company {
+    background-color: #e7ac0e;
+}
+.company p{
+    float: left;
+    margin: 0;
+    margin-left: 10px;
+    padding-left: 10px;
+    color: #ffffff;
+    padding: 0;
+    height: 0;
+}
+/* .company p {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding-left: 10px;
+    color: #ffffff;
+    background-color: #e7ac0e;
+} */
+.menu {
+    background-color: #e7ac0e;
+}
